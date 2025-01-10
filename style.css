@@ -17,6 +17,7 @@
     font-size: 18px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 /* =============================================== */
@@ -54,7 +55,7 @@ nav{
 /* ============ Banner section ============ */
 
 .banner_section{
-    width: 1280px;
+    width: 1180px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -82,5 +83,114 @@ nav{
     width: 474px;
 }
 
-
 /* ======================================== */
+
+
+
+
+/* Pillars of Bangladesh Section */
+
+.pillars_section{
+    width: 1280px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.pillars_section >h1{
+    color: #0E0E0E;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.pillars_card_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.pillars_card_wrapper >div{
+    width: 265px;
+    border: 1px solid rgb(0 0 0 / 15%);
+    border-radius: 16px;
+    padding: 16px;
+}
+.pillars_card_wrapper >div >img{
+    width: 64px;
+    margin-bottom: 16px;
+}
+.pillars_card_wrapper >div >h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e0e0ec4;
+    margin-bottom: 12px;
+}
+.pillars_card_wrapper >div >p{
+    color: #0e0e0eb2;
+    font-size: 16px;
+}
+
+/* ================================ */
+
+
+
+/* ======= Vision section ======= */
+
+.vision_section{
+    width: 1280px;
+    margin: 0px auto;
+}
+.vision_section >h1{
+    color: #0E0E0E;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.vision_section >p{
+    color: #0e0e0eb2;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+
+.vision_card_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.vision_card_wrapper >div{
+    width: 345px;
+    padding: 32px;
+    border-radius: 16px;
+    position: relative;
+    height: 235px;
+}
+
+.vision_one{
+    background-color: #D5E1F5;
+}
+.vision_two{
+    background-color: #C6E4D6;
+}
+.vision_three{
+    background-color: #F7EBCF;
+}
+
+.vision_card_wrapper >div >img{
+    width: 64px;
+}
+.vision_card_wrapper >div >h3{
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: #0e0e0ec4;
+}
+.vision_card_wrapper >div >p{
+    color: #0e0e0eb2;
+    font-size: 16px;
+}
+.vision_card_wrapper >div >button{
+    margin-top: 35px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+}
+
+/* ================================ */
