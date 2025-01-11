@@ -347,7 +347,7 @@ nav {
 /* ======== Subscribe Section ======== */
 
 .subscribe_section {
-    width: 1280px;
+    width: 1080px;
     margin: 0px auto;
     margin-bottom: 80px;
     padding: 80px 100px;
@@ -355,7 +355,7 @@ nav {
     background-color: #c6e4d6;
     border-radius: 24px;
 }
-.subscribe_section > h1 {
+.subscribe_section >h1{
     color: #0e0e0e;
     font-size: 40px;
 }
@@ -409,7 +409,7 @@ footer {
 }
 .footer_part > h1 {
     color: #0e0e0e;
-    font-size: 40px;
+    font-size: 32px;
 }
 .footer_part > hr {
     width: 90%;
