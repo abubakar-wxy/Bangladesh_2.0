@@ -46,6 +46,11 @@ nav {
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
+    transition: 0.3s;
+}
+.sign_in_btn:hover {
+    background-color: #006a50;
+    color: white;
 }
 
 /* ====================================== */
@@ -76,9 +81,18 @@ nav {
     margin: 20px 0px;
     margin-bottom: 30px;
 }
-
 .banner_img {
     width: 474px;
+}
+.banner_content > button {
+    transition: 0.3s;
+    border: 1px solid #006a50;
+}
+.banner_content > button:hover {
+    /* background-color: #C6E4D6; */
+    color: #006a50;
+    background-color: white;
+    border: 1px solid #006a50;
 }
 
 /* ======================================== */
@@ -184,7 +198,39 @@ nav {
     color: white;
     position: absolute;
     bottom: 20px;
+    transition: 0.3s;
+    cursor: pointer;
 }
+/* Hover effect on this cart */
+.blue_btn {
+    background-color: #5490f5;
+    border: 1px solid #5490f5;
+}
+.green_btn {
+    background-color: #09a15c;
+    border: 1px solid #09a15c;
+}
+.yellow_btn {
+    background-color: #ffc239;
+    border: 1px solid #ffc239;
+}
+
+.blue_btn:hover {
+    background-color: white;
+    color: #5490f5;
+    border: 1px solid #5490f5;
+}
+.green_btn:hover {
+    background-color: white;
+    color: #09a15c;
+    border: 1px solid #09a15c;
+}
+.yellow_btn:hover {
+    background-color: white;
+    color: #ffc239;
+    border: 1px solid #ffc239;
+}
+/* ----------------- */
 
 .yunus_part {
     margin-top: 32px;
@@ -277,6 +323,13 @@ nav {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #006a50;
+}
+.news_content > button:hover {
+    background-color: white;
+    color: #006a50;
+    border: 1px solid #006a50;
 }
 
 /* ================================ */
@@ -313,15 +366,14 @@ nav {
     border: 1px solid rgb(0 0 0 / 15%);
     text-align: center;
     cursor: pointer;
-    transition: 0.3s
+    transition: 0.3s;
 }
 
 .donate_cart_rap div:nth-child(2) {
-    background-color: #C6E4D6;
-    
+    background-color: #c6e4d6;
 }
 .donate_cart_rap div:hover {
-    background-color: #C6E4D6;
+    background-color: #c6e4d6;
     transform: scale(1.05);
 }
 
@@ -352,6 +404,13 @@ nav {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #006a50;
+}
+.custom_donate > button:hover {
+    background-color: white;
+    color: #006a50;
+    border: 1px solid #006a50;
 }
 
 /* ================================ */
@@ -367,7 +426,7 @@ nav {
     background-color: #c6e4d6;
     border-radius: 24px;
 }
-.subscribe_section >h1{
+.subscribe_section > h1 {
     color: #0e0e0e;
     font-size: 40px;
 }
@@ -389,7 +448,7 @@ nav {
 }
 .form_part > button {
     font-size: 16px;
-    padding: 16px 40px;
+    padding: 15.8px 40px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border: none;
@@ -399,7 +458,15 @@ nav {
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #006a50;
 }
+.form_part > button:hover {
+    background-color: white;
+    color: #006a50;
+    border: 1px solid #006a50;
+}
+
 .subscribe_title {
     color: #0e0e0eb2;
     font-size: 16px;
