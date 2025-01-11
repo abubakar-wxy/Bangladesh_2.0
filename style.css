@@ -312,7 +312,19 @@ nav {
     background-color: #ffffff;
     border: 1px solid rgb(0 0 0 / 15%);
     text-align: center;
+    cursor: pointer;
+    transition: 0.3s
 }
+
+.donate_cart_rap div:nth-child(2) {
+    background-color: #C6E4D6;
+    
+}
+.donate_cart_rap div:hover {
+    background-color: #C6E4D6;
+    transform: scale(1.05);
+}
+
 .donate_cart_rap > div > h1 {
     color: #0e0e0ec4;
     font-size: 40px;
